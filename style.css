@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+
+.logo{
+    background-image: url('amazon_logo.png');
+    background-size: cover;
+    height: 50px;
+    width: 120px;
+    
+
+}
+.logo:hover{
+    border: 1.5px solid white;
+}
+p{
+    color: rgb(165, 160, 160);
+    padding-left: 5px;
+    font-size: 12px;
+}
+#big{
+    font-size: 12px;
+    color: white;
+
+}
+.address{
+    margin-top: 3px;
+    height: 50px;
+    width: 120px;
+    margin-left: 8px;
+   
+    
+}
+.address:hover{
+    border: 1.5px solid white;
+}
+.location{
+    align-self: center;
+}
+.searchbar{
+    display: flex;
+    margin-left:8px ;
+    align-items: center;
+    margin-left: 10px;
+}
+.btn{
+    background-color: orange;
+    width: 45px;
+    height: 43px;
+    border-radius: 4px;
+    align-self: center;
+
+}
+.drop{
+    height: 41px;
+    background-color: rgb(204, 199, 199);
+    border-radius: 4px;
+    width: 45px;
+    text-align: center;
+}
+.search-input{
+    width: 700px;
+    height: 35px;
+    
+}
+.btn:hover{
+    background-color: rgb(241, 177, 17);
+}
+.three{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    
+}
+.lan{
+    height: 41px;
+    width: 50px;
+    background-color:transparent ;
+    color: white;
+    border-color:2px solid #0f1111;
+    
+}
+#three{
+    color: white;
+    font-size: 16px;
+    margin-left: 40px;
+    height: 45px;
+    width: 65px;
+    align-self: center;
+   
+}
+#three:hover{
+    border: 1.5px solid white;
+}
+.cart{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    align-items: center;
+    height: 45px;
+    width: 65px;
+    justify-content: center;
+    
+}
+.cart:hover{
+    border: 1.5px solid white;
+}
+.sign{
+    color: white;
+    margin-left: 30px;
+    
+}
+.sign:hover{
+    border: 1.5px solid white;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(29, 29, 56);
+    height: 40px;
+    width: 100%;
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+   
+
+}
+.lists{
+    margin-top:9px ;
+    text-align: center;
+}
+a:hover{
+    border: 1.5px solid white;
+    
+}
+.hero{
+    background-image: url("hero1.jpg");
+    height: 340px;
+    background-size: cover;
+
+}
+
+.searchbar:hover{
+    border: 0.5px solid orange;
+}
+.box{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    margin-left: 10px; 
+  
+}
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(222, 245, 247);
+}
+#box1{
+    background-image: url(computer.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    align-self: center;
+    margin: 20px;
+
+}
+.seemore{
+    color: rgb(69, 69, 147);
+
+}
+.seemore:hover{
+    color: orange;
+}
+h2{
+    padding: 10px;
+}
+#box2{
+    background-image: url(medicine.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    align-self: center;
+    margin: 20px;
+
+}
+#box3{
+    background-image: url(wipes.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    align-self: center;
+    margin: 20px;
+
+}
+#box4{
+    background-image: url(shoes.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    align-self: center;
+    margin: 20px;
+
+}
